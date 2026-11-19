@@ -1,0 +1,14 @@
+[
+  {
+    "evidence_id": "H1A",
+    "household_id": "H1",
+    "member": "A1",
+    "confirmed": true
+  },
+  {
+    "evidence_id": "H1B",
+    "household_id": "H1",
+    "member": "B8",
+    "confirmed": false
+  }
+]

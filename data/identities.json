@@ -1,0 +1,42 @@
+[
+  {
+    "identity_id": "A1",
+    "source": "A",
+    "local_id": "1",
+    "from_date": "2026-01-01",
+    "until_date": "2026-11-01",
+    "name": "同名甲"
+  },
+  {
+    "identity_id": "A1N",
+    "source": "A",
+    "local_id": "1",
+    "from_date": "2026-11-01",
+    "until_date": null,
+    "name": "同名乙"
+  },
+  {
+    "identity_id": "B7",
+    "source": "B",
+    "local_id": "7",
+    "from_date": "2026-01-01",
+    "until_date": null,
+    "name": "同名甲"
+  },
+  {
+    "identity_id": "C4",
+    "source": "C",
+    "local_id": "4",
+    "from_date": "2026-01-01",
+    "until_date": null,
+    "name": "同名乙"
+  },
+  {
+    "identity_id": "B8",
+    "source": "B",
+    "local_id": "8",
+    "from_date": "2026-01-01",
+    "until_date": null,
+    "name": "同名丙"
+  }
+]

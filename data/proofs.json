@@ -1,0 +1,29 @@
+[
+  {
+    "proof_id": "E1",
+    "left": "A1",
+    "right": "B7",
+    "relation": "same",
+    "from_date": "2026-01-01",
+    "until_date": null,
+    "received_at": "2026-11-01T10:00:00+08:00"
+  },
+  {
+    "proof_id": "E2",
+    "left": "B7",
+    "right": "C4",
+    "relation": "same",
+    "from_date": "2026-01-01",
+    "until_date": null,
+    "received_at": "2026-11-02T10:00:00+08:00"
+  },
+  {
+    "proof_id": "E3",
+    "left": "A1",
+    "right": "C4",
+    "relation": "different",
+    "from_date": "2026-01-01",
+    "until_date": null,
+    "received_at": "2026-11-03T10:00:00+08:00"
+  }
+]

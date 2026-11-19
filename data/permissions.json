@@ -1,0 +1,12 @@
+[
+  {
+    "permission_id": "P1",
+    "identity_id": "A1",
+    "partner": "A",
+    "fields": [
+      "date"
+    ],
+    "from_date": "2026-01-01",
+    "until_date": null
+  }
+]

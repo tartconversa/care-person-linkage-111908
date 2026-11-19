@@ -1,0 +1,121 @@
+[
+  {
+    "service_id": "S1",
+    "identity_id": "B7",
+    "date": "2026-10-01",
+    "independent_identity": "A1",
+    "household_claim": "H1"
+  },
+  {
+    "service_id": "S2",
+    "identity_id": "C4",
+    "date": "2026-10-02",
+    "independent_identity": null,
+    "household_claim": "H1"
+  },
+  {
+    "service_id": "S3",
+    "identity_id": "B8",
+    "date": "2026-10-03",
+    "independent_identity": null,
+    "household_claim": "H1"
+  },
+  {
+    "service_id": "S4",
+    "identity_id": "A1",
+    "date": "2026-10-04",
+    "independent_identity": null,
+    "household_claim": "H1"
+  },
+  {
+    "service_id": "S5",
+    "identity_id": "B7",
+    "date": "2026-10-05",
+    "independent_identity": null,
+    "household_claim": "H1"
+  },
+  {
+    "service_id": "S6",
+    "identity_id": "C4",
+    "date": "2026-10-06",
+    "independent_identity": null,
+    "household_claim": "H1"
+  },
+  {
+    "service_id": "S7",
+    "identity_id": "B8",
+    "date": "2026-10-07",
+    "independent_identity": null,
+    "household_claim": null
+  },
+  {
+    "service_id": "S8",
+    "identity_id": "A1",
+    "date": "2026-10-08",
+    "independent_identity": null,
+    "household_claim": null
+  },
+  {
+    "service_id": "S9",
+    "identity_id": "B7",
+    "date": "2026-10-09",
+    "independent_identity": null,
+    "household_claim": null
+  },
+  {
+    "service_id": "S10",
+    "identity_id": "C4",
+    "date": "2026-10-10",
+    "independent_identity": null,
+    "household_claim": null
+  },
+  {
+    "service_id": "S11",
+    "identity_id": "B8",
+    "date": "2026-10-11",
+    "independent_identity": null,
+    "household_claim": null
+  },
+  {
+    "service_id": "S12",
+    "identity_id": "A1",
+    "date": "2026-10-12",
+    "independent_identity": null,
+    "household_claim": null
+  },
+  {
+    "service_id": "S13",
+    "identity_id": "B7",
+    "date": "2026-10-13",
+    "independent_identity": null,
+    "household_claim": null
+  },
+  {
+    "service_id": "S14",
+    "identity_id": "C4",
+    "date": "2026-10-14",
+    "independent_identity": null,
+    "household_claim": null
+  },
+  {
+    "service_id": "S15",
+    "identity_id": "B8",
+    "date": "2026-10-15",
+    "independent_identity": null,
+    "household_claim": null
+  },
+  {
+    "service_id": "S16",
+    "identity_id": "A1",
+    "date": "2026-10-16",
+    "independent_identity": null,
+    "household_claim": null
+  },
+  {
+    "service_id": "S17",
+    "identity_id": "A1N",
+    "date": "2026-11-02",
+    "independent_identity": null,
+    "household_claim": null
+  }
+]

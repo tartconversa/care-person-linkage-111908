@@ -1,0 +1,149 @@
+{
+  "synthetic": true,
+  "files": [
+    {
+      "path": "data/identities.json",
+      "format": "json",
+      "sha256": "8f74347787e494c70a00955d5c339bce45fb28a539565962e9cb23451265fb5b",
+      "rows": 5,
+      "fields": [
+        "identity_id",
+        "source",
+        "local_id",
+        "from_date",
+        "until_date",
+        "name"
+      ],
+      "references": []
+    },
+    {
+      "path": "data/proofs.json",
+      "format": "json",
+      "sha256": "7de808dc515c4f8f5e4bfdbc7512a078e76e41f06df807348f756519cb63fad2",
+      "rows": 3,
+      "fields": [
+        "proof_id",
+        "left",
+        "right",
+        "relation",
+        "from_date",
+        "until_date",
+        "received_at"
+      ],
+      "references": [
+        {
+          "field": "left",
+          "target": "data/identities.json",
+          "target_field": "identity_id"
+        },
+        {
+          "field": "right",
+          "target": "data/identities.json",
+          "target_field": "identity_id"
+        }
+      ]
+    },
+    {
+      "path": "data/revocations.json",
+      "format": "json",
+      "sha256": "94a2ed8d2b3c02f53b5c8a3d4a24aa606f6a7c1edee2f47aea6302d03e16bdb0",
+      "rows": 1,
+      "fields": [
+        "revocation_id",
+        "proof_id",
+        "received_at"
+      ],
+      "references": [
+        {
+          "field": "proof_id",
+          "target": "data/proofs.json",
+          "target_field": "proof_id"
+        }
+      ]
+    },
+    {
+      "path": "data/services.json",
+      "format": "json",
+      "sha256": "d1208ee76f0293e6c4e666b8a47d7a1f06adc06638efdb47021ba3bf5f300f5a",
+      "rows": 17,
+      "fields": [
+        "service_id",
+        "identity_id",
+        "date",
+        "independent_identity",
+        "household_claim"
+      ],
+      "references": [
+        {
+          "field": "identity_id",
+          "target": "data/identities.json",
+          "target_field": "identity_id"
+        },
+        {
+          "field": "independent_identity",
+          "target": "data/identities.json",
+          "target_field": "identity_id"
+        }
+      ]
+    },
+    {
+      "path": "data/households.json",
+      "format": "json",
+      "sha256": "95453b3733608d2e03b8063eca97496ffa4ff2f224918f5d5d9e29b82959ed9c",
+      "rows": 2,
+      "fields": [
+        "evidence_id",
+        "household_id",
+        "member",
+        "confirmed"
+      ],
+      "references": [
+        {
+          "field": "member",
+          "target": "data/identities.json",
+          "target_field": "identity_id"
+        }
+      ]
+    },
+    {
+      "path": "data/deliveries.json",
+      "format": "json",
+      "sha256": "5b227f8f1e7fd14b96a4cfa94f504bea4b73bda9fdc0d00adbe0e523377d393c",
+      "rows": 1,
+      "fields": [
+        "delivery_id",
+        "service_id",
+        "old_person_ref",
+        "partner"
+      ],
+      "references": [
+        {
+          "field": "service_id",
+          "target": "data/services.json",
+          "target_field": "service_id"
+        }
+      ]
+    },
+    {
+      "path": "data/permissions.json",
+      "format": "json",
+      "sha256": "3d59bf940bb94199a46b952bae49d10e2759b6488db5b97952f41c20ff2ea40a",
+      "rows": 1,
+      "fields": [
+        "permission_id",
+        "identity_id",
+        "partner",
+        "fields",
+        "from_date",
+        "until_date"
+      ],
+      "references": [
+        {
+          "field": "identity_id",
+          "target": "data/identities.json",
+          "target_field": "identity_id"
+        }
+      ]
+    }
+  ]
+}
