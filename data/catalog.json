@@ -4,7 +4,7 @@
     {
       "path": "data/identities.json",
       "format": "json",
-      "sha256": "8f74347787e494c70a00955d5c339bce45fb28a539565962e9cb23451265fb5b",
+      "sha256": "bb191d04448fa2ce75b0f5463f6949c0f6601ba90e37e5c77f61473dd6714856",
       "rows": 5,
       "fields": [
         "identity_id",
@@ -19,7 +19,7 @@
     {
       "path": "data/proofs.json",
       "format": "json",
-      "sha256": "7de808dc515c4f8f5e4bfdbc7512a078e76e41f06df807348f756519cb63fad2",
+      "sha256": "1eec5af220cd4571afff99a215b57a13f48d6f4b2e1d02e5305759621c3f260a",
       "rows": 3,
       "fields": [
         "proof_id",
@@ -46,7 +46,7 @@
     {
       "path": "data/revocations.json",
       "format": "json",
-      "sha256": "94a2ed8d2b3c02f53b5c8a3d4a24aa606f6a7c1edee2f47aea6302d03e16bdb0",
+      "sha256": "50525fdb26ed8979ac992cc923a426671a38a8e482ec4f4b3e1eff3a92be1687",
       "rows": 1,
       "fields": [
         "revocation_id",
@@ -64,7 +64,7 @@
     {
       "path": "data/services.json",
       "format": "json",
-      "sha256": "d1208ee76f0293e6c4e666b8a47d7a1f06adc06638efdb47021ba3bf5f300f5a",
+      "sha256": "94fec12e91c885f6e7c9403f8224d0f0fc71f911e7dc889db929e1d9ff45da0f",
       "rows": 17,
       "fields": [
         "service_id",
@@ -89,7 +89,7 @@
     {
       "path": "data/households.json",
       "format": "json",
-      "sha256": "95453b3733608d2e03b8063eca97496ffa4ff2f224918f5d5d9e29b82959ed9c",
+      "sha256": "3652fc0eb29319f1f9d9316081fe199c34ce9a9074fd006fa107674e4db1cc1f",
       "rows": 2,
       "fields": [
         "evidence_id",
@@ -108,7 +108,7 @@
     {
       "path": "data/deliveries.json",
       "format": "json",
-      "sha256": "5b227f8f1e7fd14b96a4cfa94f504bea4b73bda9fdc0d00adbe0e523377d393c",
+      "sha256": "aabda06f43afc7adef6b1e39319e8607e9f84e086f503418b67b932652f38ada",
       "rows": 1,
       "fields": [
         "delivery_id",
@@ -127,7 +127,7 @@
     {
       "path": "data/permissions.json",
       "format": "json",
-      "sha256": "3d59bf940bb94199a46b952bae49d10e2759b6488db5b97952f41c20ff2ea40a",
+      "sha256": "d3158608d1c0aa29b88a1955fdda4f7b63a0b9fad717eabc91aa88bdf6305ce2",
       "rows": 1,
       "fields": [
         "permission_id",
